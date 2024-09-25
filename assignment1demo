@@ -1,0 +1,10 @@
+
+class Vehicle:
+    """Class to represent a Vehicle"""
+    def __init__(self,make,year,price):
+        self.make=make
+        self.year=year
+        self.price=price
+        
+    def displayInfo(self):
+        print('Make =',self.make,' Year=',self.year,' Price=',self.price)
