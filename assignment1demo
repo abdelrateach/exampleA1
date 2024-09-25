@@ -8,3 +8,8 @@ class Vehicle:
         
     def displayInfo(self):
         print('Make =',self.make,' Year=',self.year,' Price=',self.price)
+
+
+
+class Truck(Vehicle):
+
